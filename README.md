@@ -5,14 +5,14 @@ The project is Bayesian Decision Surfaces
 
 ![Capture](https://user-images.githubusercontent.com/92639654/216793802-d9fe6aee-35b0-45bb-b8b1-3e77963f8934.PNG)
 
-## 1- read file : read txt file and calculate the some numerical values needed in the processing.
+## steps
+   1- read file : read txt file and calculate the some numerical values needed in the processing.
     2- gaussian estimation: calculate the sigma and mus for each class.
     3- distribution_calculation : return the boundary of each class on a scatter plot.
     5- prob_pos_cond_: calculate the conditional prob.
     6- boundary : draw the scatter plot with the decision boundary between each class.
     7- evaluation: calculate the accuracy of the classifier.
     
-    ** note some functions needed to be duplicated becuase of the referencing in the two cases used in the drawing.
 
 ## Libraries that is used
 #Imports Libraries
