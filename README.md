@@ -6,8 +6,6 @@ The project is Bayesian Decision Surfaces
 ![Capture](https://user-images.githubusercontent.com/92639654/216793802-d9fe6aee-35b0-45bb-b8b1-3e77963f8934.PNG)
 
 
-## Naive Bayes classifiers 
-Naive Bayes classifiers are a collection of classification algorithms based on Bayes’ Theorem. It is not a single algorithm but a family of algorithms where all of them share a common principle, i.e. every pair of features being classified is independent of each other.
 
 ## Libraries that is used
 import pandas as pd
@@ -52,10 +50,21 @@ xlabel='positive', ylabel='negative'
 
 
 ## Accuracy 
+#### Binclass
 The  Naive Bayes Classifier Accuracy Score is 0.9523809523809523
+#### binclassv2
+Accuracy Score:  0.9573934837092731
+
 ![image](https://user-images.githubusercontent.com/92639654/216795148-3eef889e-f635-4f18-9aec-145bb93de821.png)
 
+## Naive Bayes classifiers 
+Naive Bayes classifiers are a collection of classification algorithms based on Bayes’ Theorem. It is not a single algorithm but a family of algorithms where all of them share a common principle, i.e. every pair of features being classified is independent of each other.
+#### Binclass
+![Capture](https://user-images.githubusercontent.com/92639654/216795323-5c35c62c-36f2-4756-8dd1-123f7c4a1922.PNG)
 
+
+#### binclassv2
+![Capture](https://user-images.githubusercontent.com/92639654/216795337-812ad3e4-ba02-4d12-9ea0-5e6457948e66.PNG)
 
 
 
