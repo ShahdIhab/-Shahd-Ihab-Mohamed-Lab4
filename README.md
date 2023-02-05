@@ -37,12 +37,6 @@ df = pd.read_csv('binclass.txt')
 ![8](https://user-images.githubusercontent.com/92639654/216848888-2ea09268-721e-45a7-bc2e-1ab56e656a2a.PNG)
 
 
-## Data test
-#### Binclass
-![2](https://user-images.githubusercontent.com/92639654/216794798-a22cee3f-e608-44d0-a700-e7889d732e8d.PNG)
-
-#### binclassv2
-![image](https://user-images.githubusercontent.com/92639654/216795214-41e8f582-5199-43a1-ac6c-d14f5fba1e6c.png)
 
 
 ## Scatter Plot
