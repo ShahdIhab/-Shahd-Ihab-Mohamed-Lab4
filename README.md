@@ -5,40 +5,37 @@ The project is Bayesian Decision Surfaces
 
 ![Capture](https://user-images.githubusercontent.com/92639654/216793802-d9fe6aee-35b0-45bb-b8b1-3e77963f8934.PNG)
 
-
+## 1- read file : read txt file and calculate the some numerical values needed in the processing.
+    2- gaussian estimation: calculate the sigma and mus for each class.
+    3- distribution_calculation : return the boundary of each class on a scatter plot.
+    5- prob_pos_cond_: calculate the conditional prob.
+    6- boundary : draw the scatter plot with the decision boundary between each class.
+    7- evaluation: calculate the accuracy of the classifier.
+    
+    ** note some functions needed to be duplicated becuase of the referencing in the two cases used in the drawing.
 
 ## Libraries that is used
-import pandas as pd
+#Imports Libraries
 
-import numpy as np
+ matplotlib.pyplot 
 
-import matplotlib
+ numpy 
 
-import matplotlib.pyplot as plt
+scipy.stats
 
-%matplotlib inline
+pandas 
 
-from matplotlib.colors import ListedColormap
-
-from sklearn.naive_bayes import GaussianNB
-
-from sklearn.preprocessing import StandardScaler
-
-from sklearn.metrics import accuracy_score
-
-import seaborn as sns
+sklearn seaborn 
 
 To start with, let us consider a dataset.
 
 ### Text data set
 df = pd.read_csv('binclass.txt') 
-df.columns = ["positive", "negative", "y"] 
 
+![9](https://user-images.githubusercontent.com/92639654/216848896-08f08f7d-e5c2-4c9b-b934-c6bb06596cdc.PNG)
 
-[binclass.txt](https://github.com/ShahdIhab/-Shahd-Ihab-Mohamed-Lab4/files/10609927/binclass.txt)
+![8](https://user-images.githubusercontent.com/92639654/216848888-2ea09268-721e-45a7-bc2e-1ab56e656a2a.PNG)
 
-
-[binclassv2.txt](https://github.com/ShahdIhab/-Shahd-Ihab-Mohamed-Lab4/files/10609928/binclassv2.txt)
 
 ## Data test
 #### Binclass
@@ -50,30 +47,17 @@ df.columns = ["positive", "negative", "y"]
 
 ## Scatter Plot
 #### Binclass
-Seaborn is a Python data visualization library based on matplotlib. It provides a high-level interface for drawing attractive and informative statistical graphics.
-xlabel='positive', ylabel='negative'
-![Capture](https://user-images.githubusercontent.com/92639654/216795026-80d2cef0-ad16-4c2f-81dd-a63285594c3d.PNG)
+![download](https://user-images.githubusercontent.com/92639654/216848919-a35b40cd-9f6a-45f0-8dc5-cb9e38b1c562.png)
 
-#### binclassv2
-![Capture](https://user-images.githubusercontent.com/92639654/216795255-d9944701-4fac-417d-a50f-2f471adf0d44.PNG)
+![2](https://user-images.githubusercontent.com/92639654/216848927-4d4c931f-1800-4e90-af86-abb0ca9bcd89.png)
 
-
-## Accuracy 
-#### Binclass
-The  Naive Bayes Classifier Accuracy Score is 0.9523809523809523
-#### binclassv2
-Accuracy Score:  0.9573934837092731
-
-![image](https://user-images.githubusercontent.com/92639654/216795148-3eef889e-f635-4f18-9aec-145bb93de821.png)
-
-## Naive Bayes classifiers 
-Naive Bayes classifiers are a collection of classification algorithms based on Bayes’ Theorem. It is not a single algorithm but a family of algorithms where all of them share a common principle, i.e. every pair of features being classified is independent of each other.
-#### Binclass
-![Capture](https://user-images.githubusercontent.com/92639654/216795323-5c35c62c-36f2-4756-8dd1-123f7c4a1922.PNG)
+![3](https://user-images.githubusercontent.com/92639654/216848941-610ddbea-2737-4d00-9bbd-8198aeea14d4.png)
 
 
 #### binclassv2
-![Capture](https://user-images.githubusercontent.com/92639654/216795337-812ad3e4-ba02-4d12-9ea0-5e6457948e66.PNG)
+![4](https://user-images.githubusercontent.com/92639654/216848949-a658a62a-7bc0-460a-9a05-a7c64e36b295.png)
+![5](https://user-images.githubusercontent.com/92639654/216848958-af4da458-2625-483c-9fec-eb7284830659.png)
+![6](https://user-images.githubusercontent.com/92639654/216848961-d8943168-6c5f-491a-8ec0-0296d9e1fe4f.png)
 
 
 
