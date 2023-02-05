@@ -42,9 +42,14 @@ df.columns = ["positive", "negative", "y"]
 
 
 ## Scatter Plot
+#### Binclass
 Seaborn is a Python data visualization library based on matplotlib. It provides a high-level interface for drawing attractive and informative statistical graphics.
 xlabel='positive', ylabel='negative'
 ![Capture](https://user-images.githubusercontent.com/92639654/216795026-80d2cef0-ad16-4c2f-81dd-a63285594c3d.PNG)
+
+#### binclassv2
+![Capture](https://user-images.githubusercontent.com/92639654/216795255-d9944701-4fac-417d-a50f-2f471adf0d44.PNG)
+
 
 ## Accuracy 
 The  Naive Bayes Classifier Accuracy Score is 0.9523809523809523
