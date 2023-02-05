@@ -9,14 +9,23 @@ The project is Bayesian Decision Surfaces
 
 ## Libraries that is used
 import pandas as pd
+
 import numpy as np
+
 import matplotlib
+
 import matplotlib.pyplot as plt
+
 %matplotlib inline
+
 from matplotlib.colors import ListedColormap
+
 from sklearn.naive_bayes import GaussianNB
+
 from sklearn.preprocessing import StandardScaler
+
 from sklearn.metrics import accuracy_score
+
 import seaborn as sns
 
 To start with, let us consider a dataset.
