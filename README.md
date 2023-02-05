@@ -7,7 +7,7 @@ The project is Bayesian Decision Surfaces
 
 
 ## Naive Bayes classifiers 
-are a collection of classification algorithms based on Bayes’ Theorem. It is not a single algorithm but a family of algorithms where all of them share a common principle, i.e. every pair of features being classified is independent of each other.
+Naive Bayes classifiers are a collection of classification algorithms based on Bayes’ Theorem. It is not a single algorithm but a family of algorithms where all of them share a common principle, i.e. every pair of features being classified is independent of each other.
 
 ## Libraries that is used
 import pandas as pd
@@ -34,14 +34,10 @@ df.columns = ["positive", "negative", "y"]
 ## Data test
 ![2](https://user-images.githubusercontent.com/92639654/216794798-a22cee3f-e608-44d0-a700-e7889d732e8d.PNG)
 
-
-
-
-
-
-
-
-
+## scatter Plot
+Seaborn is a Python data visualization library based on matplotlib. It provides a high-level interface for drawing attractive and informative statistical graphics.
+xlabel='positive', ylabel='negative'
+![Capture](https://user-images.githubusercontent.com/92639654/216795026-80d2cef0-ad16-4c2f-81dd-a63285594c3d.PNG)
 
 
 
